@@ -1,0 +1,228 @@
+{
+  "basics": {
+    "name": "Tommaso Capelli",
+    "label": "Analyst @ Avanade - Web developer",
+    "phone": "",
+    "website": "",
+    "summary": "Avanade aiuta i clienti a realizzare risultati nel mondo digitale attraverso soluzioni tecnologiche e di servizi  che coniugano conoscenza, innovazione ed esperienza focalizzata sulle tecnologie Microsoft ®. Avanade, che è controllata da Accenture, è stata fondata nel 2000 da Accenture e Microsoft Corporation LLP e dispone di 21.000 professionisti in più di 20 paesi\nCome membro di Avanade sono particolarmente interessato alla tecnologia, in particolare allo sviluppo web, quindi portali, web applications e interfacce di servizi da browser, ma anche modellazione ed interrogazione di basi di dati. Ho un particolare interesse verso esperienza utente ed accessibilità. Contattami se sei interessato a migliorare il business della tua azienda!",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "Avanade",
+      "position": "Analyst",
+      "website": "",
+      "startDate": "2013-09-01",
+      "summary": "Sono entrato nel mondo di Avanade come sviluppatore web, ora ho l'occasione di migliorare ed ampliare le mie conoscenze nel mondo della tecnologia, dello sviluppo IT e della consulenza aziendale.\nDa dicembre 2014 ad oggi: Ho curato lo sviluppo di un progetto per la gestione delle garanzie pubbliche presso uno dei più grandi gruppi bancari italiani. Mi sono occupato dello sviluppo del portale, dell'analisi dei requisiti e del processo.\nDa maggio 2014 a dicembre 2014: Sono entrato in un progetto Accenture per un grande gruppo bancario italiano. Mi occupo di analisi e reportistica utilizzando SAS sul più grande datamart bancario d'europa e la suite Office per la creazione di reportistica fruibile dall'utente..\nDa settembre 2013 a maggio 2014: Sviluppo di un portale per l'acquisto integrato di servizi per un top player italiano nel campo dei viaggi. Mi occupo dell'integrazione dei servizi del cliente per la creazione di un portale su base Sitecore sfruttando le più moderne tecnologie per il web, HTML5 CSS3 AngularJS.",
+      "highlights": []
+    },
+    {
+      "company": "Freelance Web Developer",
+      "position": "Web Developer",
+      "website": "",
+      "startDate": "2013-05-01",
+      "summary": "Sviluppo di website con CMS Wordpress per varie attività.",
+      "highlights": []
+    },
+    {
+      "company": "Topkey S.R.L.",
+      "position": "Web developer",
+      "website": "",
+      "startDate": "2012-10-01",
+      "summary": "Creazione di interfacce web per programmi installabili esistenti quali software di documentale, conservazione sostitutiva, scarico PEC, conservazione sostitutiva, invoice delivering ed invio di posta(lettere,raccomandate e telegrammi) online.",
+      "highlights": [],
+      "endDate": "2013-09-01"
+    },
+    {
+      "company": "LML COMPANY",
+      "position": "consulente",
+      "website": "",
+      "startDate": "2011-09-01",
+      "summary": "Gestione e configurazione di online shops tramite l'integrazione del tool per la vendita multicanale Edock per uno dei più grandi player italiani nel settore dell'abbigliamento.",
+      "highlights": [],
+      "endDate": "2012-08-01"
+    },
+    {
+      "company": "iltaglio.org",
+      "position": "webmaster",
+      "website": "",
+      "startDate": "2011-01-01",
+      "summary": "Ideazione del progetto,creazione, design, collegamento social network e aggiornamento del sito.",
+      "highlights": [],
+      "endDate": "2012-09-01"
+    },
+    {
+      "company": "Pi. bi. esse.",
+      "position": "installatore sistemi domotica",
+      "website": "",
+      "startDate": "2007-06-01",
+      "summary": "Installazione impianto domotica custom su piattaforma Crestron.",
+      "highlights": [],
+      "endDate": "2007-09-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "",
+      "area": "",
+      "studyType": "Diploma",
+      "startDate": "2002-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2007-01-01"
+    },
+    {
+      "institution": "Facoltà informatica Torino, Scienze MFN",
+      "area": "",
+      "studyType": "laurea",
+      "startDate": "2007-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2015-01-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Website Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Applications",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Applicazioni Web",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Servizi Web",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Services",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML 5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS3",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "LESS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "jQuery",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "jQuery Mobile",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AngularJS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Sitecore",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ASP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ASP.NET MVC",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "VB.NET",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "WordPress",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Physical Computing",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "Inglese",
+      "fluency": "Professional working"
+    },
+    {
+      "language": "Italiano",
+      "fluency": "Native or bilingual"
+    }
+  ]
+}
