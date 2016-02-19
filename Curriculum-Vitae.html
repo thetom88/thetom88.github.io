@@ -1,0 +1,27 @@
+---
+layout: page
+title: Tommaso Capelli - Curriculum Vitae
+pageTitle: Curriculum Vitae
+---
+<h2>{{site.data.resume.basics.label}}</h2>
+<p>{{site.data.resume.basics.summary}}</p>
+<hr />
+<dl>
+{% for work in site.data.resume.work %}
+    <dt>{{work.company}} - {{work.position}}</dt>
+    <dd>
+        <span>from: {{work.startDate}} to:{{work.endDate}}</span>
+        <span><p>{{work.summary}}</p></span>    
+    </dd>
+{% endfor %}
+</dl>
+<hr />
+<dl>
+{% for ed in site.data.resume.education %}
+    <dt>{{ed.institution}} - {{ed.studyType}}</dt>
+    <dd>
+        <span>from: {{ed.startDate}} to:{{ed.endDate}}</span>
+        <span><p>{{ed.summary}}</p></span>    
+    </dd>
+{% endfor %}
+</dl>
