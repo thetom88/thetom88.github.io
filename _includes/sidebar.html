@@ -1,13 +1,12 @@
 <div class="panel panel-primary">
     <div class="panel-heading">
-        <h3 class="panel-title">Posts <span class="badge pull-right">{{site.posts.size}}</span></h3>
+        <h3 class="panel-title">Categories<span class="badge pull-right">{{site.categories.size}}</span></h3>
     </div>
     <div class="list-group">
-        {% for post in site.posts %}
-        <a href="{{ post.url | prepend: site.baseurl }}" class="list-group-item">
-            <h4 class="list-group-item-heading">{{ post.title }}</h4>
-            <p class="list-group-item-text">{{ post.date | date: "%b %-d, %Y" }}</p>
-        </a>
+        {% for cat in site.categories %}
+            <a href="#" class="list-group-item" class="list-group-item">
+                {{ cat | first }}<span class="badge pull-right">{{cat.size}}</span>
+            </a>
         {% endfor %}
     </div>
 </div>

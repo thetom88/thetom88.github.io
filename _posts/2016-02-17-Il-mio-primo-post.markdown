@@ -2,7 +2,7 @@
 layout: post
 title:  "Il mio primo post!"
 date:   2016-02-17 00:00:00 +0000
-categories: update
+categories: blog-update
 ---
 Ciao a tutti!
 Sono molto felice di annunciarvi che ho iniziato a tenere traccia di quanto imparo faccio e dico.
