@@ -1,24 +1,68 @@
 ---
 layout: default
 ---
-<div class="home container">
+<div class="big-image-container">
+  <div class="container">
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-md-9">
+          <h1>Hello, world!</h1>
+          <h2>Benvenuto!</h2>
+          <p>Spero tu possa trovare informazioni interessanti su questo sito!</p>
+          <p>Attualmente ho creato {{site.posts.size}} posts e {{site.pages.size}} pagine. Guarda i contenuti:
+            <a href="#main-content" class="fa fa-arrow-down"></a>
+          </p>
+          <h3>Entriamo in contatto:</h3>
+          <div class="btn-group" role="group" aria-label="...">
+            {% if site.linkedin_username %}
+            <a href="https://it.linkedin.com/in/{{ site.linkedin_username }}" class="btn btn-default" target="_blank"><span class="fa fa-linkedin fa-2x"></span></a>
+            {% endif %}
+            {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}" class="btn btn-default" target="_blank"><span class="fa fa-github fa-2x"></span></a>
+            {% endif %}
+            {% if site.twitter_username %}
+            <a href="https://twitter.com/{{ site.twitter_username }}" class="btn btn-default" target="_blank"><span class="fa fa-twitter fa-2x"></span></a>
+            {% endif %}
+            {% if site.instagram_username %}
+            <a href="https://www.instagram.com/{{ site.instagram_username }}" class="btn btn-default" target="_blank"><span class="fa fa-instagram fa-2x"></span></a>
+            {% endif %}
+            {% if site.facebook_username %}
+            <a href="https://www.facebook.com/{{ site.facebook_username }}" class="btn btn-default" target="_blank"><span class="fa fa-facebook-official fa-2x"></span></a>
+            {% endif %}
+          </div>
+
+        </div>
+        <div class="col-md-3">
+          <img src="/img/static/me_photo_doc_resized.jpg" class="img-responsive img-circle"></img>
+        </div>
+        <div class="btn-circle-holder">
+          <a class="btn btn-circle btn-lg btn-default" id="main-scroll-down-btn" href="#main-content"><i class="fa fa-chevron-down fa-2x"></i></a>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+<div class="home container" id="main-content">
+  <hr>
   <div class="row">
     <div class="col-md-8">
       <h1 class="page-heading">Posts</h1>
 
       <ul class="post-list">
         {% for post in site.posts %}
-          <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-    
-            <h2>
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+          <h2>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
-          </li>
+        </li>
         {% endfor %}
       </ul>
-    
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+      <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p>
     </div>
     <div class="sidebar col-md-4">
       {% include sidebar.html %}
