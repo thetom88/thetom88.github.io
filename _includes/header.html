@@ -26,6 +26,7 @@
               <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{% if my_page.pageTitle %}{{ my_page.pageTitle }}{% else %}{{ my_page.title }}{% endif %}</a></li>
             {% endif %}
           {% endfor %}
+          <li><a class="page-link" href="{{ " /feed.xml " | prepend: site.baseurl }}"><span class="fa fa-rss"></span></a></li>
         </ul>
       </div>
     </div>
