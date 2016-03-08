@@ -1,11 +1,18 @@
 body{
 }
 
+header nav.navbar{
+    margin-bottom:0;
+}
 
 .big-image-container{
     background: url("/img/static/home-photo.jpg") no-repeat top center fixed;
     background-size: cover;
-    padding: 10vh 0;
+    padding: 5vh 0;
+    
+    @media screen and (min-width: $screen-sm-min) {
+        padding: 10vh 0;
+    }
     
     .jumbotron{
         opacity:0;
@@ -15,8 +22,12 @@ body{
 
             #main-scroll-down-btn{
                 position:absolute;
-                bottom:-70px;
+                bottom:-80px;
                 transform:translate(-50%,-50%);
+                
+                @media screen and (min-width: $screen-sm-min) {
+                    bottom:-100px;
+                }
             }
         }
         

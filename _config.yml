@@ -21,3 +21,7 @@ linkedin_name: "Tommaso Capelli"
 
 # Build settings
 markdown: kramdown
+
+sass:
+    sass_dir: _sass
+    style: compressed
