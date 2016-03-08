@@ -5,6 +5,11 @@ header nav.navbar{
     margin-bottom:0;
 }
 
+.add-margin-tb{
+    margin-top:23px;
+    margin-bottom:23px;
+}
+
 .big-image-container{
     background: url("/img/static/home-photo.jpg") no-repeat top center fixed;
     background-size: cover;
@@ -29,7 +34,7 @@ header nav.navbar{
                     bottom:-100px;
                 }
             }
-        }
+        } 
         
         div.col-md-9{
             opacity:0;
