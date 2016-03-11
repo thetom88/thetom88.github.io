@@ -11,14 +11,14 @@ Lo vogliamo anche noi!
 
 Bene, di seguito vi spiegherò come farlo.
 
-###Requisiti:
+<h3>Requisiti:</h3>
 1. Sistema Linux(non strettamente necessario ma vi semplifica la vita)
 2. Ruby 
 3. Git
 4. Un account [GitHub][github]
 3. Una ventina di minuti
 
-###1. Crea un nuovo Repository
+<h3>1. Crea un nuovo Repository</h3>
 
 Collegati a <a href="https://github.com" target="_blank">https://github.com</a> e crea un nuovo repository con nome uguale al tuo username, esempio: USERNAME.github.com .
 Nel mio caso thetom88.github.com. 
@@ -26,7 +26,7 @@ Nel mio caso thetom88.github.com.
   <p>In seguito per convenzione userò il mio username (thetom88), sostituitelo con il vostro!</p>
 </blockquote>
 
-###2. Crea un repository locale e collegalo al repository remoto
+<h3>2. Crea un repository locale e collegalo al repository remoto</h3>
 
 Crea una cartella dove inserirai il progetto, crea il repository locale e collegalo al repository remoto:
 
@@ -37,7 +37,7 @@ git init
 git remote add origin https://github.com/thetom88/thetom88.git
 </pre>
 
-###3. Installa Jekyll ed il plugin GitHub Pages
+<h3>3. Installa Jekyll ed il plugin GitHub Pages</h3>
 Occorre innanzitutto installare il gem di Jeckyll e quello di GitHub Pages. Per farlo ci conviene sfruttare il gemfile per poi ricreare l'ambiente in caso di necessità in un secondo momento.<br>
 Create quindi nella vostra directory del progetto un file di nome ```.Gemfile``` e copiate il successivo contenuto al suo interno:
 
@@ -49,7 +49,7 @@ gem 'github-pages'
 
 A questo punto installate il tutto con il comando ``` bundle install ```
 
-###4. Crea il tuo sito con Jekyll
+<h3>4. Crea il tuo sito con Jekyll</h3>
 Niente di più facile, basta lanciare il comando ```jekyll new ./ ```  che si occuperà di creare tutto il necessario.
 
 Per visualizzare il tuo sito, Jekyll mette a disposizione un piccolo server locale, ti basterà lanciare il comando  ```jekyll serve ``` e collegarti con un browser alla pagina indicata.
@@ -59,7 +59,7 @@ di ricreare il website così che tu debba solo fare un refresh della pagina ogni
 
 Per fermare tutte queste fantasticherie ti basterà premere <kbd><kbd>ctrl</kbd> + <kbd>c</kbd></kbd>
 
-###5. Pubblica il sito sulla tua pagina di GitHub
+<h3>5. Pubblica il sito sulla tua pagina di GitHub</h3>
 Molto molto semplice, innanzitutto devi aggiungere i files del progetto appena creato al repository:
 <pre>git add .</pre>
 Poi devi creare un nuovo commit:
