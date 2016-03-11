@@ -3,20 +3,20 @@
         <h3 class="panel-title">Categories<span class="badge pull-right">{{site.categories.size}}</span></h3>
     </div>
     <div class="list-group">
-        {% assign tags_list = site.categories %}  
-          {% if tags_list.first[0] == null %}
+    {% assign tags_list = site.categories %}  
+        {% if tags_list.first[0] == null %}
             {% for tag in tags_list %} 
-              <a href="#" class="list-group-item" class="list-group-item">
+                <a href="#" class="list-group-item" class="list-group-item">
                     {{ tag | capitalize }}<span class="badge pull-right">{{ site.tags[tag].size }}</span>
                 </a>
             {% endfor %}
-          {% else %}
+        {% else %}
             {% for tag in tags_list %} 
                 <a href="#{{ tag[0] }}" class="list-group-item" class="list-group-item">
                     {{ tag[0] | capitalize }}<span class="badge pull-right">{{ tag[1].size }}</span>
                 </a>
             {% endfor %}
-          {% endif %}
-        {% assign tags_list = nil %}
+        {% endif %}
+    {% assign tags_list = nil %}
     </div>
 </div>
