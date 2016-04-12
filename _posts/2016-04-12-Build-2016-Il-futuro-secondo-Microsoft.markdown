@@ -7,6 +7,5 @@ categories: news-comment
 Volete dare un'occhiata a quello che secondo me sarà il futuro?
 
 Molto bene, gustatevi questo riassunto del Build 2016 di Microsoft
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4DSNJ_WvfN4" allowfullscreen></iframe>
-</div>
+
+{% include youtube-embed.html src="4DSNJ_WvfN4" %}
