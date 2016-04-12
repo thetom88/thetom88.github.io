@@ -2,13 +2,7 @@
 layout: default
 ---
 <article itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="article-big-image-container" style="backgroud-image:url('
-  {% if page.image %}
-    {{ site.url}}img/post/{{ page.date | date: "%F" }}/{{ page.image }}
-  {% else %}
-  /img/static/home-photo.jpg
-  {% endif %}
-  ') !important;">
+  <div class="article-big-image-container" style="background:url('{% if page.image %}{{ site.url}}img/post/{{ page.date | date: "%F" }}/{{ page.image }}{% else %}/img/static/home-photo.jpg{% endif %}') no-repeat top center fixed;background-size:cover;">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
