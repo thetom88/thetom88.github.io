@@ -48,7 +48,13 @@
 $(function() {
     $(document).ready(function() {
         
-        $('.big-image-container').parallax({
+        $('.big-image-container').height(function(){
+            var h = $(window).height()-70;
+            h = h - 2 * parseInt($('.big-image-container').css('padding-top').replace("px",""));
+            console.log(h);
+             return h+'px';
+        })
+        .parallax({
         	speed :	0.15
         });
 
