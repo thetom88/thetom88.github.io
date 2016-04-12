@@ -1,8 +1,14 @@
 ---
 layout: default
 ---
-<article  itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="article-big-image-container">
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="article-big-image-container" style="backgroud-image:url('
+  {% if page.image %}
+    {{ site.url}}img/post/{{ page.date | date: "%F" }}/{{ page.image }}
+  {% else %}
+  /img/static/home-photo.jpg
+  {% endif %}
+  ') !important;">
     <div class="container">
       <div class="row">
         <div class="col-md-12">

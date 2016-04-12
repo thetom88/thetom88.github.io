@@ -3,6 +3,7 @@ layout: post
 title: Build 2016 - il futuro secondo Microsoft
 date:   2016-04-12 00:00:00 +0000
 categories: news-comment
+image: microsoft-build-2016.jpg
 ---
 Volete dare un'occhiata a quello che secondo me sarà il futuro?
 
