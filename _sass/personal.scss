@@ -88,6 +88,12 @@ article.post{
     }
 }
 
+.article-big-image-container { 
+    @extend .big-image-container;
+    
+    margin-bottom:23px;
+}
+
 /* Underline From Left */
 p a:not(.btn) {
   display: inline-block;
