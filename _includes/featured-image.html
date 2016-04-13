@@ -1,0 +1,5 @@
+{% if include.image %}
+{{ site.url}}img/post/{{ include.date | date: "%F }}/{{ include.image }}
+{% else %}
+/img/static/home-photo.jpg
+{% endif %}

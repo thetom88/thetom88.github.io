@@ -19,6 +19,13 @@
     }
 }
 
+.hideme{
+    opacity:0;
+}
+.visible{
+    opacity:1;
+}
+
 footer.site-footer {
   background-color: $gray-lighter;
   
@@ -79,22 +86,27 @@ header nav.navbar{
     text-align:center;
 }
 
-
-.media.home-post-list{
-    padding-bottom:10px;
-    border-bottom:1px solid $gray-lighter;
-    margin-bottom:12px;
-    
-    .media-left{
-        width:30%;
-        
-        img{
-            width:100%;
-        }
-
+.post-list{
+    h1{
+        margin-top:0px;
     }
-    .media-body{
-        width:70%;
+    
+    .media.home-post-list{
+        padding-bottom:10px;
+        border-bottom:1px solid $gray-lighter;
+        margin-bottom:12px;
+        
+        .media-left{
+            width:30%;
+            
+            img{
+                width:100%;
+            }
+    
+        }
+        .media-body{
+            width:70%;
+        }
     }
 }
 
