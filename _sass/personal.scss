@@ -76,6 +76,25 @@ header nav.navbar{
             opacity:0;
         }
     }
+    
+    @media screen and (max-width: $screen-md-min) {
+        h1,h2,h3{
+            text-align:center;
+            margin:5px 0px;
+        }
+        .btn-group{
+            margin:10px auto;
+            width:100%;
+            .btn-default{
+                width:16.6%;
+                padding:4px 8px;
+            }
+        }
+        img{
+            max-height:150px;
+            margin:10px auto;
+        }
+    }
 }
 
 .btn-circle.btn-lg {

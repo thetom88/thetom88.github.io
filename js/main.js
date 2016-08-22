@@ -57,7 +57,7 @@
 
 $(function() {
     $(document).ready(function() {
-        
+        //Making big image for home
         $('.big-image-container').height(function(){
             var h = $(window).height()-70;
             h = h - 2 * parseInt($('.big-image-container').css('padding-top').replace("px",""));
@@ -66,6 +66,10 @@ $(function() {
         .parallax({
         	speed :	0.15
         });
+        
+        if($(window).width() < 992){
+            $(".big-image-container").addClass("xs-sm");
+        }
         
         $('.media.home-post-list').viewportChecker({
             classToAdd: 'visible animated slideInLeft',
