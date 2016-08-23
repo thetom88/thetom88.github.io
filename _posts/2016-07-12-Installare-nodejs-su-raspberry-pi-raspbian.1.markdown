@@ -2,7 +2,7 @@
 layout: post
 title: Installare NodeJS su Raspberry PI con Raspbian Jessie
 date:   2016-07-12 00:00:00 +0000
-categories: news-comment
+categories: Javascript
 image: model-b.png
 ---
 Avete un Raspberry PI? Per cosa lo usate?  
